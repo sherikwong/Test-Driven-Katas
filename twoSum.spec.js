@@ -14,6 +14,6 @@ describe('twoSum function', () => {
 
   it('Returns an array of indices that add up to the target number', () => {
     let test = twoSum([1, 2, 3], 4);
-    expect(test).to.equal([0, 2]);
+    expect(test).to.deep.equal([0, 2]);
   });
 })
